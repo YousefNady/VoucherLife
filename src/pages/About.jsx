@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Building2, FlaskConical, Radiation, Pill, Package, Target, Eye, Heart, Shield, ArrowRight } from 'lucide-react'
 import PageHeader from '../components/Pageheader'
-import SectionWrapper from '../components/SectionWrapper'
+import SectionWrapper from '../components/Sectionwrapper'
 
 const categories = [
   { icon: Building2, title: 'Hospitals & Clinics', desc: 'Discounts at accredited hospitals and specialist clinics across Egypt.', color: 'bg-blue-50 text-blue-600' },

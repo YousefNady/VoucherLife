@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Shield, Tag, Zap, Users, ChevronRight, CheckCircle2, Building2, FlaskConical, Radiation, Pill, Package, Star, ArrowRight } from 'lucide-react'
-import SectionWrapper from '../components/SectionWrapper'
+import SectionWrapper from '../components/Sectionwrapper'
 import PhoneMockup from '../components/PhoneMockup'
 
 const features = [

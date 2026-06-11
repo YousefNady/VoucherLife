@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Globe, AlertCircle } from 'lucide-react'
-import PageHeader from '../components/PageHeader'
+import PageHeader from '../components/Pageheader'
+// dummy comment to trigger commit
 
 const refundEN = {
   title: 'Refund & Cancellation Policy',

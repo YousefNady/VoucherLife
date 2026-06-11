@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Globe } from 'lucide-react'
-import PageHeader from '../components/PageHeader'
+import PageHeader from '../components/Pageheader'
+// dummy comment to trigger commit
 
 const termsEN = {
   title: 'Terms of Service',

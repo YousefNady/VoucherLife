@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Building2, FlaskConical, Radiation, Pill, Package, Target, Eye, Heart, Shield, ArrowRight } from 'lucide-react'
-import PageHeader from '../components/PageHeader'
+import PageHeader from '../components/Pageheader'
 import SectionWrapper from '../components/SectionWrapper'
 
 const categories = [

@@ -22,7 +22,7 @@
     "tailwindcss": "^3.4.1",
     "vite": "^5.1.0"
   },
-    "homepage": "https://YOUR_GITHUB_USERNAME.github.io/VoucherLife",
+    "homepage": "https://YousefNady.github.io/VoucherLife",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

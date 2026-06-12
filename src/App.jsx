@@ -12,7 +12,7 @@ import BackToTop from "./components/BackToTop";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/VoucherLife">
       <ScrollToTop />
       <BackToTop />
       <div className="min-h-screen flex flex-col bg-white">

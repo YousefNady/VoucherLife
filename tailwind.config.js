@@ -30,6 +30,24 @@ export default {
           "linear-gradient(135deg, #f0fdf4 0%, #dcfce7 40%, #f0fdfa 100%)",
         "brand-gradient": "linear-gradient(135deg, #16a34a 0%, #00AFA4 100%)",
       },
+      // NEW
+      keyframes: {
+        dropdown: {
+          "0%": {
+            opacity: "0",
+            transform: "scale(0.95) translateY(-4px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "scale(1) translateY(0)",
+          },
+        },
+      },
+
+      // NEW
+      animation: {
+        dropdown: "dropdown 0.15s ease-out forwards",
+      },
     },
   },
   plugins: [],

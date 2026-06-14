@@ -9,11 +9,19 @@ import Refund from './pages/Refund'
 import Contact from './pages/Contact'
 import ScrollToTop from './components/ScrollToTop'
 import BackToTop from "./components/BackToTop";
+import WhatsAppButton from './components/Whatsappbutton'
+import { useLang } from './context/LanguageContext'
 
 export default function App() {
+  const { t } = useLang()
+
   return (
     <BrowserRouter basename="/VoucherLife">
       <ScrollToTop />
+      <WhatsAppButton
+        tooltipText={t('common.whatsAppTooltip')}
+        message={t('common.whatsAppMessage')} 
+        />
       <BackToTop />
       <div className="min-h-screen flex flex-col bg-white">
         <Navbar />
